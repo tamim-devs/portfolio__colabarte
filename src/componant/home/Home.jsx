@@ -18,7 +18,6 @@ const Home = () => {
               <div><FaLinkedin /></div>
             </div>
             </div>
-            <div className="extra"></div>
             <div className="banner__img">
               <img src={ban_profile} alt="" />
             </div>

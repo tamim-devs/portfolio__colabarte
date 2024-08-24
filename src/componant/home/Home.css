@@ -3,7 +3,6 @@
   background-color: #909090;
   height: 100vh;
   background-size: cover;
-
 }
 
 
@@ -11,27 +10,28 @@
   display: flex;
   justify-content: space-between;
   position: relative;
+
 }
 .banner__item{
   margin-top: 229px;  
   left: 0;
-  position: absolute;
 }
 
 .banner__img img{
   height: 700px;
   right: 0px;
-  top: 185px;
-  position: absolute;
-  
-  
+  top: 185px;  
+  position: relative;
 }
-.extra{
-  width: 500px;
-  height: 500px;
-  background: #000;
+
+.banner__img img::before{
+  background-color: #000;
+  content: "";
+  width: 1000px;
+  height: 1000px;
   position: absolute;
 }
+
 p{
   color: #909090;
   font-family: Raleway;
@@ -51,6 +51,7 @@ font-size: 80px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+width: 200px;
 }
 
 h1{
