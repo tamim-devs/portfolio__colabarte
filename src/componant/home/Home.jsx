@@ -8,7 +8,6 @@ const Home = () => {
     <section id='banner'>
       <div className="container">
         <div className="banner__wrapper">
-          <div className='extra'></div>
             <div className="banner__item">
               <h1>Hi Iam</h1>
               <h2>Tushar Ahmed</h2>
@@ -19,6 +18,7 @@ const Home = () => {
               <div><FaLinkedin /></div>
             </div>
             </div>
+            <div className="extra"></div>
             <div className="banner__img">
               <img src={ban_profile} alt="" />
             </div>
