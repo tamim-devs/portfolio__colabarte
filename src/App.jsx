@@ -16,12 +16,15 @@ import Portfolio from './componant/portfolio/Portfolio';
 const App = () => {
      const router = createBrowserRouter(
           createRoutesFromElements(
+               <Route>
+
                <Route element={<RootLayout />} >
                     <Route path='/' element={< Home />} />
                     <Route path='/about' element={< About />} />
                     <Route path='/skills' element={< Skills />} />
                     <Route path='/contact' element={< Contact />} />
                     <Route path='/portfolio' element={< Portfolio />} />
+               </Route>
                </Route>
 
 

@@ -1,4 +1,44 @@
+
 #banner{
-  padding: 100vh;
- 
+  background: url(../images/banner_bg.jpg);
+  height: 100vh;
+  position: relative;
+  background-size: cover;
+}
+.banner__item{
+  margin-top: 229px;
+  position: absolute;
+}
+.banner__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+p{
+color: #909090;
+font-family: Raleway;
+font-size: 25px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 32px;
+}
+
+h2{
+  margin-top: 54px;
+  color: #000;
+text-align: center;
+font-family: Raleway;
+font-size: 80px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+h1{
+  color: #000;
+font-family: Raleway;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
