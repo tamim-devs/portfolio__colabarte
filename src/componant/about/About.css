@@ -1,0 +1,9 @@
+#about{
+     padding: 158px 0 158px 0;
+}
+.head{
+     display: flex;
+     /* align-items: center; */
+     justify-content: center;
+
+}
